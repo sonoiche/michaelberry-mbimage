@@ -1,0 +1,29 @@
+{
+    "name": "michaelberry/mbimage",
+    "description": "This is an image service, designed to ingest images and prepare them for use on the site.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Berry",
+            "email": "michael@saperemarketing.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "intervention/image": "^2.5",
+        "league/flysystem-aws-s3-v3": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MichaelBerry\\MBImage": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MichaelBerry\\MBImage\\MBImageServiceProvider"
+            ]
+        }
+    }
+}
