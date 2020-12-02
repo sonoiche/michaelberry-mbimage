@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MichaelBerry\\MBImage": "src/"
+            "MichaelBerry\\MBImage\\": "src/"
         }
     },
     "extra": {
